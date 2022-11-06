@@ -1,6 +1,6 @@
 {
 	"name": "@leanup/kolibri-themes",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A set of public themes for the web component library KoliBri.",
 	"author": {
 		"name": "Martin Oppitz",
