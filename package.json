@@ -1,7 +1,7 @@
 {
 	"name": "@leanup/kolibri-themes",
-	"version": "0.0.0",
-	"description": "description",
+	"version": "0.0.1",
+	"description": "A set of public themes for the web component library KoliBri.",
 	"author": {
 		"name": "Martin Oppitz",
 		"email": "github@martinoppitz.com"
@@ -13,7 +13,7 @@
 		}
 	],
 	"license": "EUPL-1.2",
-	"private": true,
+	"private": false,
 	"scripts": {
 		"build": "unbuild",
 		"prepack": "unbuild"
@@ -50,5 +50,8 @@
 		"assets",
 		"reports",
 		"dist"
-	]
+	],
+	"publishConfig": {
+		"access": "public"
+	}
 }
