@@ -2,9 +2,9 @@ lockfileVersion: 5.4
 
 specifiers:
   '@a11y-ui/core': 1.0.0-rc.21
-  '@public-ui/components': 1.1.10-rc.6
-  '@public-ui/core': 1.1.10-rc.6
-  '@public-ui/schema': 1.1.10-rc.6
+  '@public-ui/components': 1.1.10-rc.11
+  '@public-ui/core': 1.1.10-rc.11
+  '@public-ui/schema': 1.1.10-rc.11
   '@types/node': 18.11.7
   eslint: 8.26.0
   prettier: 2.7.1
@@ -13,12 +13,12 @@ specifiers:
   unbuild: 0.9.4
 
 dependencies:
-  '@public-ui/schema': 1.1.10-rc.6
+  '@public-ui/schema': 1.1.10-rc.11
 
 devDependencies:
   '@a11y-ui/core': 1.0.0-rc.21
-  '@public-ui/components': 1.1.10-rc.6
-  '@public-ui/core': 1.1.10-rc.6
+  '@public-ui/components': 1.1.10-rc.11
+  '@public-ui/core': 1.1.10-rc.11
   '@types/node': 18.11.7
   eslint: 8.26.0
   prettier: 2.7.1
@@ -339,11 +339,11 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@leanup/lib/1.3.38:
-    resolution: {integrity: sha512-pShxkO0I1Qc865MJEPVeqLmKwkZUn7kdffIsHj6+XsBG310YIbH8JFCOOBcH6oTc7dTRBYnC2YQzzE9/mV8iMg==}
+  /@leanup/lib/1.3.39:
+    resolution: {integrity: sha512-7ic6B4iN7cOXnVC3Q3cIXM9FbmmD4yhTwc2Em51h0cZNAv7Lu4EkzIFP3u261771I8ugCq26689XvtiuKa0fqw==}
     dependencies:
       loglevel: 1.8.0
-      tslib: 2.4.0
+      tslib: 2.4.1
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -366,23 +366,23 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@public-ui/components/1.1.10-rc.6:
-    resolution: {integrity: sha512-umYlbbFuSQjSRZsj8slLM7hQnAo453BhV8uhiaN+WcWbxr2Qodr7l6B6khfl5ze/r/EiO5/S/10I4W2EaHB71w==}
+  /@public-ui/components/1.1.10-rc.11:
+    resolution: {integrity: sha512-R5wBJtT6mg/xPJncXg1TegqBjOwdRx0qAUlk1a5zNQe0zmYBe+d6zyKBSU7FGpOx8gMCvKOwZYMCSuxkkisvKA==}
     dependencies:
-      '@public-ui/schema': 1.1.10-rc.6
+      '@public-ui/schema': 1.1.10-rc.11
     dev: true
 
-  /@public-ui/core/1.1.10-rc.6:
-    resolution: {integrity: sha512-UGqwtADzvHI8x7X4nK/uZt5s2IgpVmSEUDZNynDYdqKEfGO8dUAn7AC3uT4qwv5XcL9EpjUt4TU2+qmAvYPlnw==}
+  /@public-ui/core/1.1.10-rc.11:
+    resolution: {integrity: sha512-4/rpQXMiOztRiugkZIZXT/HcvqrbrIYUDYpbd2iR8x2KVg+823u6hxL9q3BfY48XRdVrUDa/EBeAv3JPF/iiug==}
     dependencies:
       '@a11y-ui/core': 1.0.0-rc.21
-      '@leanup/lib': 1.3.38
+      '@leanup/lib': 1.3.39
       rxjs: 7.5.7
 
-  /@public-ui/schema/1.1.10-rc.6:
-    resolution: {integrity: sha512-pkFUtzejgdvpO1GS/S0SujyQPDErtFF6AVi4deJ/IwQP/uxDuAKRUup1xRQ9IjxmTCjmrAIN4E8p05J8cMuPuQ==}
+  /@public-ui/schema/1.1.10-rc.11:
+    resolution: {integrity: sha512-75S5IzxfdZzR15xLTT1loXRHyK+/ztlc77TC0Repe7rEU2jeZYI8cGOeuq+5caoq8JZ0dvvWviLOBfZJeWWLaQ==}
     dependencies:
-      '@public-ui/core': 1.1.10-rc.6
+      '@public-ui/core': 1.1.10-rc.11
 
   /@rollup/plugin-alias/4.0.2_rollup@3.2.5:
     resolution: {integrity: sha512-1hv7dBOZZwo3SEupxn4UA2N0EDThqSSS+wI1St1TNTBtOZvUchyIClyHcnDcjjrReTPZ47Faedrhblv4n+T5UQ==}
@@ -2026,9 +2026,6 @@ packages:
       true-myth: 4.1.1
       ts-morph: 13.0.3
     dev: true
-
-  /tslib/2.4.0:
-    resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
 
   /tslib/2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
