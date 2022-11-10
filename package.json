@@ -1,6 +1,6 @@
 {
 	"name": "@leanup/kolibri-themes",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "A set of public themes for the web component library KoliBri.",
 	"author": {
 		"name": "Martin Oppitz",
@@ -16,24 +16,26 @@
 	"private": false,
 	"scripts": {
 		"build": "unbuild",
-		"prepack": "unbuild"
+		"prepack": "unbuild",
+		"update": "ncu -u"
 	},
 	"dependencies": {
-		"@public-ui/schema": "1.1.10-rc.11"
+		"@public-ui/schema": "1.1.10-rc.15"
 	},
 	"devDependencies": {
 		"@a11y-ui/core": "1.0.0-rc.21",
-		"@public-ui/components": "1.1.10-rc.11",
-		"@public-ui/core": "1.1.10-rc.11",
-		"@types/node": "18.11.7",
-		"eslint": "8.26.0",
+		"@public-ui/components": "1.1.10-rc.15",
+		"@public-ui/core": "1.1.10-rc.15",
+		"@types/node": "18.11.9",
+		"eslint": "8.27.0",
+		"npm-check-updates": "16.3.18",
 		"prettier": "2.7.1",
 		"ts-prune": "0.10.3",
 		"typescript": "4.8.4",
 		"unbuild": "0.9.4"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "1.1.10-rc.11"
+		"@public-ui/components": "*"
 	},
 	"sideEffects": false,
 	"type": "module",
