@@ -65,7 +65,7 @@ jobs:
 
       - name: Install, build and publish
         run: |
-					pnpm i
+          pnpm i
           npm publish --access ${{env.access}} --tag next
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
