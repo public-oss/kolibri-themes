@@ -7,7 +7,7 @@
 		"experimentalDecorators": true,
 		"esModuleInterop": true,
 		"lib": ["dom", "es2015"],
-		"module": "ESNext",
+		"module": "es2015",
 		"preserveSymlinks": true,
 		"moduleResolution": "node",
 		"noImplicitAny": true,

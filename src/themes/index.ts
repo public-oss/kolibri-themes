@@ -1,4 +1,2 @@
-export * from "./bahn";
-export * from "./spk";
-export * from "./ukv";
-export * from "./vkb";
+export * from "./private-economic";
+export * from "./public-administration";
