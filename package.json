@@ -2,6 +2,13 @@
 	"name": "@public-oss/kolibri-themes",
 	"version": "0.0.1",
 	"description": "Collection of public themes for KoliBri accessible  web component library.",
+	"license": "EUPL-1.2",
+	"homepage": "https://public-oss.github.io",
+	"repository": "https://github.com/public-oss/kolibri-themes",
+	"bugs": {
+		"url": "https://github.com/public-oss/kolibri-themes/issues",
+		"email": "github@martinoppitz.com"
+	},
 	"author": {
 		"name": "Martin Oppitz",
 		"email": "github@martinoppitz.com"
@@ -12,7 +19,6 @@
 			"email": "github@martinoppitz.com"
 		}
 	],
-	"license": "EUPL-1.2",
 	"private": false,
 	"scripts": {
 		"build": "unbuild",
