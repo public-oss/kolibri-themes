@@ -36,4 +36,5 @@ Thumbs.db
 .env
 .eslintcache
 *~
+*.tgz
 *.log
