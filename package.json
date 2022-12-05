@@ -22,7 +22,6 @@
 	"private": false,
 	"scripts": {
 		"build": "unbuild",
-		"prepack": "unbuild",
 		"update": "ncu -u"
 	},
 	"dependencies": {
