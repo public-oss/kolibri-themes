@@ -1,2 +1,2 @@
-export * from "./themes";
-export * from "./translations";
+export * from './themes';
+export * from './translations';
