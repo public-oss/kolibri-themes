@@ -1,23 +1,6 @@
 name: Publish
 
-env:
-  access: public
-  github-registry: https://npm.pkg.github.com
-  github-token: ${{ secrets.GITHUB_TOKEN }}
-  npmjs-registry: https://registry.npmjs.org
-  npmjs-token: ${{ secrets.NPMJS_TOKEN }}
-  npmjs-tag: next
-
 on:
-  # pull_request:
-  #   branches:
-  #     - main
-  # push:
-  #   branches:
-  #     - main
-  # release:
-  #   types:
-  #     - released
   workflow_dispatch:
 
 jobs:
@@ -29,22 +12,14 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
-          ref: "main"
-
-      # - uses: pnpm/action-setup@v2.2.4
-      #   with:
-      #     run_install: false
-      #     version: 7
-      # - uses: actions/setup-node@v3
-      #   with:
-      #     cache: pnpm
-      #     node-version: 16
+          ref: 'main'
 
       # https://github.com/pnpm/action-setup#use-cache-to-reduce-installation-time
       - name: Install Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 16
+          registry-url: https://npm.pkg.github.com
       - uses: pnpm/action-setup@v2
         name: Install pnpm
         id: pnpm-install
@@ -59,7 +34,7 @@ jobs:
         name: Setup pnpm cache
         with:
           path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store # -${{ hashFiles('**/pnpm-lock.yaml') }}
+          key: ${{ runner.os }}-pnpm-store
           restore-keys: |
             ${{ runner.os }}-pnpm-store
 
