@@ -49,15 +49,15 @@ jobs:
             ${{ runner.os }}-pnpm-store
 
       - name: Install
-        run: pnpm install --no-frozen-lockfile
-      - name: Unused
-        run: npx ts-prune src -e
+        run: pnpm i
+      - name: Lint
+        run: npx eslint src
       - name: Format
         if: always()
-        run: npx prettier src/
-      - name: Lint
-        run: npx eslint src/
+        run: npx prettier src -c
       # - name: Test
       #   run: npm test
+      - name: Unused
+        run: npx ts-prune src -e
       - name: 'Pack'
         run: npm pack
