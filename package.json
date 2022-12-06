@@ -34,7 +34,7 @@
 		"@typescript-eslint/parser": "5.45.0",
 		"@public-ui/components": "1.1.13-rc.9",
 		"@public-ui/core": "1.1.13",
-		"@types/node": "18.11.10",
+		"@types/node": "18.11.11",
 		"eslint": "8.29.0",
 		"prettier": "2.8.0",
 		"ts-prune": "0.10.3",
