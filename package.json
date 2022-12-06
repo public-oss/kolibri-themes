@@ -42,7 +42,7 @@
 		"unbuild": "1.0.1"
 	},
 	"peerDependencies": {
-		"@public-ui/components": "1.1.13-rc.9"
+		"@public-ui/components": ">=1.1.13"
 	},
 	"sideEffects": false,
 	"type": "module",
@@ -59,9 +59,5 @@
 		"assets",
 		"reports",
 		"dist"
-	],
-	"publishConfig": {
-		"access": "public",
-		"registry": "https://npm.pkg.github.com"
-	}
+	]
 }

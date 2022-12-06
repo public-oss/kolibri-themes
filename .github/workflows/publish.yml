@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
-          registry-url: https://npm.pkg.github.com
       - uses: pnpm/action-setup@v2
         name: Install pnpm
         id: pnpm-install
@@ -41,6 +40,6 @@ jobs:
       - name: Install, build and publish
         run: |
           pnpm i
-          npm publish --access public
+          npm publish --access public --tag next
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPMJS_ACCESS_TOKEN }}

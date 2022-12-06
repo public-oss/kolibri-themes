@@ -3,7 +3,7 @@
 ## Länder
 
 - [ ] [Baden-Württemberg](https://wm.baden-wuerttemberg.de/fileadmin/redaktion/m-wm/intern/Dateien_Downloads/Ausschreibungen/Anlage_5_-_Styleguide_der_Initiative_Wirtschaft_4.0.pdf)
-- [ ] [Bayern](https://www.stmwi.bayern.de/publikationen/detail/online-styleguide-des-stmwi/) <sup>DOR</sup>
+- [ ] [Bayern](https://www.stmwi.bayern.de/publikationen/detail/online-styleguide-des-stmwi/) <sup>DOR, WIP</sup>
 - [ ] [Berlin](https://www.berlin.de/rbmskzl/service/corporate-design/) <sup>DOR</sup>
 - [ ] [Brandenburg](https://style.brandenburg.de/downloads/bbstyleguide_2.5.pdf) <sup>DOR</sup>
 - [ ] [Bremen](https://www.styleguide.bremen.de/) <sup>DOR</sup>
