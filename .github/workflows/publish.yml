@@ -19,6 +19,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
+          registry-url: 'https://registry.npmjs.org'
+          scope: '@public-ui'
       - uses: pnpm/action-setup@v2
         name: Install pnpm
         id: pnpm-install
