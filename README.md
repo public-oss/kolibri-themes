@@ -29,7 +29,9 @@ Link: <https://www.datenportal.bmbf.de/portal/de/G122.html>
 
 ### Privatwirtschaft
 
+- EBAY = Ebay
 - BAHN = Deutsche Bahn
+- PAYPAL = PayPal
 - SPK = Sparkasse
 - UKV = Union Krankenversicherung AG
 - VKB = Versicherungskammer Bayern
