@@ -30,6 +30,8 @@ Link: <https://www.datenportal.bmbf.de/portal/de/G122.html>
 ### Privatwirtschaft
 
 - BAHN = Deutsche Bahn
+- EBAY = Ebay
+- PAYPAL = PayPal
 - SPK = Sparkasse
 - UKV = Union Krankenversicherung AG
 - VKB = Versicherungskammer Bayern
@@ -42,9 +44,9 @@ Die Verwendung der Themes mit der [barrierefreien Web Componenten Bibliothek Kol
 <head>
 	<link href="https://use.fontawesome.com/releases/v6.2.1/css/all.css" rel="stylesheet" />
 	<script type="module">
-		import { register } from 'https://esm.sh/@public-ui/core';
-		import { defineCustomElements } from 'https://esm.sh/@public-ui/components/dist/loader';
-		import { TH } from 'https://esm.sh/@public-oss/kolibri-themes';
+		import { register } from 'https://esm.sh/@public-ui/core@1.1.14';
+		import { defineCustomElements } from 'https://esm.sh/@public-ui/components@1.1.14/dist/loader';
+		import { TH } from 'https://esm.sh/@public-oss/kolibri-themes@1.1.14';
 		register(TH, [defineCustomElements])
 			.then(() => {})
 			.catch(console.warn);
