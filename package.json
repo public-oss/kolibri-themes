@@ -42,7 +42,7 @@
 		"update": "ncu -u"
 	},
 	"dependencies": {
-		"@public-ui/schema": "1.1.13"
+		"@public-ui/schema": "1.1.15"
 	},
 	"devDependencies": {
 		"@a11y-ui/core": "1.0.1-rc.6",
