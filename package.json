@@ -5,6 +5,22 @@
 	"license": "EUPL-1.2",
 	"homepage": "https://public-oss.github.io",
 	"repository": "https://github.com/public-oss/kolibri-themes",
+	"keywords": [
+		"KoliBri",
+		"Web Components",
+		"Custom Elements",
+		"Styleguide",
+		"Design System",
+		"Theme",
+		"HTML",
+		"Accessibility",
+		"A11y",
+		"W3C",
+		"Webstandard",
+		"WCAG",
+		"BITV",
+		"CSS"
+	],
 	"bugs": {
 		"url": "https://github.com/public-oss/kolibri-themes/issues",
 		"email": "github@martinoppitz.com"
