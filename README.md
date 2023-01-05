@@ -31,7 +31,9 @@ Link: <https://www.datenportal.bmbf.de/portal/de/G122.html>
 
 - BAHN = Deutsche Bahn
 - EBAY = Ebay
+- IX = Siemens iX
 - PAYPAL = PayPal
+- REWE = Rewe
 - SPK = Sparkasse
 - UKV = Union Krankenversicherung AG
 - VKB = Versicherungskammer Bayern
