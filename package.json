@@ -1,6 +1,6 @@
 {
 	"name": "@public-oss/kolibri-themes",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Collection of public themes for KoliBri accessible  web component library.",
 	"license": "EUPL-1.2",
 	"homepage": "https://public-oss.github.io",
