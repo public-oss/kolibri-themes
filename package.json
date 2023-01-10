@@ -46,7 +46,7 @@
 		"update": "pnpm ncu:patch && pnpm ncu:minor && pnpm ncu:major"
 	},
 	"dependencies": {
-		"@public-ui/schema": "1.1.15"
+		"@public-ui/schema": "1.1.16"
 	},
 	"devDependencies": {
 		"@a11y-ui/core": "1.0.1-rc.6",
